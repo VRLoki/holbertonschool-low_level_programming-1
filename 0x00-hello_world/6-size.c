@@ -5,8 +5,8 @@
  *
  * Return: 0 if exited properly, non-zero otherwise
 */
-int main(void) { 
-
+int main(void)
+{
 	char charSize;
 	int intSize;
 	long int longintSize;
@@ -18,6 +18,6 @@ int main(void) {
 	printf("Size of a long int: %lu byte(s)\n", sizeof(longintSize));
 	printf("Size of a long long int: %lu byte(s)\n", sizeof(longlongintSize));
 	printf("Size of a float: %lu byte(s)\n", sizeof(floatSize));
-	
+
 	return (0);
 }
