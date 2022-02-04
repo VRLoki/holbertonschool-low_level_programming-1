@@ -3,17 +3,17 @@
 #include <time.h>
 
 /**
- * main - Print numberz
+ * main - Print lowercase alphabet in reverse
  *
  * Return: (0) success
  */
 int main(void)
 {
-	int n;
+	char lower;
 
-	for (n = 48; n < 58; n++)
+	for (lower = 'z'; lower >= 'a'; lower--)
 	{
-		putchar(n);
+		putchar(lower);
 	}
 
 	putchar('\n');
