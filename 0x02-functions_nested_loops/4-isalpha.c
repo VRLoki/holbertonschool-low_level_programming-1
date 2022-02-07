@@ -5,7 +5,7 @@
  * @c: character to be checked
  * Return: 1 True. 0 False
  */
-int _islower(int c)
+int _isalph(int c)
 {
 	if (c >= 65 && c <= 122)
 		return (1);
