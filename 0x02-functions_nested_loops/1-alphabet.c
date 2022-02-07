@@ -2,10 +2,8 @@
 
 /**
  *print_alphabet - print alphabet in lowercase
- *
- *Return: (0)
-*/
-int print_alphabet(void)
+ */
+void print_alphabet(void)
 {
 	char alpha = 'a';
 
@@ -17,5 +15,4 @@ int print_alphabet(void)
 
 	_putchar('\n');
 
-	return (0);
 }
