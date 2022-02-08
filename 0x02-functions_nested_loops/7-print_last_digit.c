@@ -3,16 +3,22 @@
 /**
  *print_last_digit - computes the absolute value of an integer
  * @n: num to check
- * Return: the absolute value of int
+ * Return: value of last digit
  */
 int print_last_digit(int n)
 {
-	if (n >= 0)
-	{
-		return (n % 10);
-	}
-		return (-n % 10);
+	int a;
 
+	if (n < 0)
+		n = -n;
+
+	a = n % 10;
+
+	if (a < 0)
+		a = -a;
+
+	_putchar(a + '0');
 	_putchar('\n');
 
+	return (a);
 }
