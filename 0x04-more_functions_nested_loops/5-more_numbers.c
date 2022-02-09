@@ -1,18 +1,18 @@
 #include "main.h"
 
 /**
- *print_alphabet_x10 - print alphabet in lowercase x10
+ * more_numbers - numbers from 0 to 14 x10 times
  */
-void print_alphabet_x10(void)
+void more_numbers(void)
 {
-	char alpha;
-	int times;
+	int n;
+	int cn;
 
-	for (times = 0; times < 10; times++)
+	for (cn = 0; cn < 10; cn++)
 	{
-		for (alpha = 'a'; alpha <= 'z'; alpha++)
+		for (n = 0; n <= 14; n++)
 		{
-			_putchar(alpha);
+			_putchar(n);
 
 		}
 		_putchar('\n');
