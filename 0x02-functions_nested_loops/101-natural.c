@@ -3,9 +3,6 @@
 
 /**
  * findSum - print sum of all multiples of 3 and 5 below 1024
- * @n: max number
- * @a: multiples of 3
- * @b: multiples of 5
  * Return: value of sum
  */
 int findSum(void)
@@ -27,6 +24,10 @@ int findSum(void)
 	return (sum);
 }
 
+/**
+ * main - print
+ * Return: 0
+ */
 int main(void)
 {
 	printf("%i\n", findSum());
