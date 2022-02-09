@@ -8,11 +8,15 @@
  * @b: multiples of 5
  * Return: value of sum
  */
-int findSum(int n, int a, int b)
+int findSum(void)
 {
+	int n = 1024;
+	int a = 3;
+	int b = 5;
 	int sum = 0;
+	int i;
 
-	for (int i = 0; i < n; i++)
+	for (i = 0; i < n; i++)
 	{
 		if (i % a == 0 || i % b == 0)
 		{
@@ -25,9 +29,11 @@ int findSum(int n, int a, int b)
 
 int main(void)
 {
-	int n = 1024, a = 3, b = 5;
+	int n = 1024;
+	int a = 3;
+	int b = 5;
 
-	printf("%d", findSum(n, a, b));
+	printf("%i\n", findSum());
 
 	return (0);
 }
