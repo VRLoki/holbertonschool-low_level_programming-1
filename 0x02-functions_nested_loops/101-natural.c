@@ -29,10 +29,6 @@ int findSum(void)
 
 int main(void)
 {
-	int n = 1024;
-	int a = 3;
-	int b = 5;
-
 	printf("%i\n", findSum());
 
 	return (0);
