@@ -1,20 +1,22 @@
 #include "main.h"
 
 /**
- * print_diagonal - draw diagonal line on terminal
- * @n: input number of \
+ * print_triangle - prints triangle on terminal
+ * @size: input number of size
  */
-void print_diagonal(int n)
+void print_triangle(int size)
 {
 	int cn1;
 	int cn2;
 
-	for (cn1 = 0; cn1 < n; cn1++)
+	for (cn1 = 0; cn1 < size; cn1++)
 	{
-		for (cn2 = 0; cn2 < cn1; cn2++)
+		for (cn2 = cn1; cn2 < size; cn2++)
 			_putchar(' ');
 
-		_putchar(92);
+		for (cn2 = 1; cn2 <= cn1; cn2++)
+			_putchar('#');
+
 		_putchar('\n');
 	}
 
