@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - draw diagonal line on terminal
- * @n: input number of diagonal bar
+ * @n: input number of \
  */
 void print_diagonal(int n)
 {
