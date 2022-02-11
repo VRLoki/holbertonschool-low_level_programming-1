@@ -4,6 +4,7 @@
  * main - test function correct when 0.
  * Return: 0 Success
  */
+
 int main(void)
 {
 	int i;
