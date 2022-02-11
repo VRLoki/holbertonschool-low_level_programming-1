@@ -1,17 +1,13 @@
 #include "main.h"
 
 /**
- * _strlen - takes a pointer to an int as parameter and
- * updates the value it points to 98
+ * _strlen - Calculate the Length
  * @s: variable to show length
  * Return: 0
  */
 int _strlen(char *s)
 {
-	char *s[];
-	int len;
+	size_t strlen(const char *s);
 
-	len = _strlen(s);
-
-	return (len);
+	return (strlen);
 }
