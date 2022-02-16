@@ -1,14 +1,13 @@
 #include "main.h"
 
 /**
- * reverse_array - reverses content of an array of integers
+ * string_toupper - changes all lowercase letters of a string to uppercase
  * @a: array
- * @n: number of elements of the array
+ * Return: 0
  */
-void reverse_array(int *a, int n)
+char *string_toupper(char *)
 {
 	int cn, rev, aux;
-
 	rev = n - 1;
 
 	for (cn = 0; cn <= rev; cn++, rev--)
