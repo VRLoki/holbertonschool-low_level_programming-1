@@ -15,7 +15,7 @@ char *leet(char *str)
 	{
 		for (j = 0; a[j] != '\0'; j++)
 		{
-			if (a[j] == str[i])
+			if (str[i] == a[j])
 			{
 				str[i] = b[j / 2];
 			}
