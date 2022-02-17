@@ -11,7 +11,13 @@ char *leet(char *str)
 	char a[] =  {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
 	char b[] = {'4', '3', '0', '7', '1'};
 
-	switch (i = 0; str[i] != '\0'; i++)
+	i = 0;
+	switch (i)
+	  {
+	  case '0':
+	    i++;
+	  }
+	for (i = 0; str[i] != '\0'; i++)
 	{
 		for (j = 0; j < 10; j++)
 		{
