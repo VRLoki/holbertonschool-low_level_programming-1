@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * leet - switcah letters for numbers
+ * leet - letters for numbers
  * @str: string
  * Return: string
  */
