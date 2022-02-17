@@ -5,28 +5,24 @@
  * @str: string
  * Return: string capitalized
  */
-char *string_toupper(char *str)
+char *cap_string(char *str)
 {
-	int a = 0, b;
-	char arr[] = " \t\n,;.!?\"(){}";
+	int i, j;
+	char a[] =  {' ', '\t', '\n', ',', ';', '.', '!', '?',
+	'"', '(', ')', '{', '}'};
 
-	while (*(str + a))
-	{
-		if (*(str + a) >= 'a' && *(str + a) <= 'z')
+	if (str[0] >= 'a' && str[0] <= 'z')
+		str[0] = str[0] - 32;
+
+		for (i = 0; str[i] != '\0'; i++)
 		{
-			if (a == 0)
-				*(str + a) -= 'a' - 'A';
-			else
+			for (j = 0; a[j] != '\0'; j++)
 			{
-				for (b = 0; b <= 12; b++)
-				{
-					if (arr[b] == *(str + a - 1))
-						*(str + a) -= 'a' - 'A';
-				}
+				if (a[j] == str[i])
+					if (str[i + 1] >= 'a' && str[i + 1] <= 'z')
+						str[i + 1] = str[i +1] - 32;
 			}
 		}
-		a++;
-	}
 
-	return (c);
+	return (str);
 }
