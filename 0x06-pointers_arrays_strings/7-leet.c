@@ -3,7 +3,7 @@
 /**
  * leet - switch letters for numbers
  * @str: string
- * Return: string switched
+ * Return: string
  */
 char *leet(char *str)
 {
@@ -13,7 +13,7 @@ char *leet(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		for (j = 0; j <= 9; j++)
+		for (j = 0; j < 10; j++)
 		{
 			if (str[i] == a[j])
 			{
