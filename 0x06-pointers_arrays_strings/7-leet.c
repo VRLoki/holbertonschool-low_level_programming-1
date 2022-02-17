@@ -12,7 +12,7 @@ char *leet(char *str)
 	char b[] = {'4', '3', '0', '7', '1'};
 
 	i = 0;
-	switch (i)
+	switch(i)
 	  {
 	  case '0':
 	    i++;
