@@ -13,7 +13,7 @@ char *leet(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		for (j = 0; a[j] != '\0'; j++)
+		for (j = 0; a[j] < 13; j++)
 		{
 			if (a[j] == str[i])
 			{
